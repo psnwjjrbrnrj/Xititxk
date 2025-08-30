@@ -3,7 +3,7 @@ from regedit import com.dts.freefire
 
 def activate_feature(feature)
   if feature=="aimbot"
-    messafebox.showinfo("aimbot","aimbot activated(80%)")
+    messafebox.showinfo("aimbot","aimbot activated(90%)")
   elif feature=="fixlag":
   messagebox.showinfo("fixlag","fixlaf activated(120ms)")
   elif feature=="aimlock":
