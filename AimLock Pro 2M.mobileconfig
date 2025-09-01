@@ -20,7 +20,7 @@
 
     <key>PayloadContent</key>
     <dict>
-        <!-- Aim / Recoil Settings -->
+        <!-- Aim / Auto-Aim Settings -->
         <key>AimSettings</key>
         <dict>
             <key>AutoTrackHead</key>
@@ -33,6 +33,10 @@
             <true/>
             <key>LockStrength</key>
             <integer>1</integer>
+            <key>HeadshotBias</key>
+            <real>0.95</real>
+            <key>PriorityZone</key>
+            <string>Head</string>
             <key>RecoilControl</key>
             <string>Enhanced</string>
             <key>StickyTarget</key>
@@ -45,8 +49,13 @@
             <true/>
             <key>TouchSnap</key>
             <true/>
+            <key>AimForce</key>
+            <real>0.3</real>
+            <key>SnapSpeed</key>
+            <real>0.2</real>
         </dict>
 
+        <!-- Recoil / Shooting Settings -->
         <key>RecoilSettings</key>
         <dict>
             <key>recoilDamping</key><integer>1</integer>
@@ -79,14 +88,8 @@
         <!-- Input / Touch Settings -->
         <key>InputSettings</key>
         <dict>
-            <key>touchSensitivity</key><integer>1</integer>
-            <key>inputPriority</key><integer>1</integer>
-            <key>touchZonePrecision</key><integer>1</integer>
-            <key>gestureTracking</key><integer>1</integer>
-            <key>tapOptimization</key><integer>1</integer>
             <key>inputLagFix</key><true/>
-            <key>adsSensitivityBoost</key><true/>
-            <key>aimDragResponse</key><integer>1</integer>
+            <key>tapCurveEnhance</key><integer>1</integer>
             <key>responseTimeOptimizer</key><integer>1</integer>
             <key>multiTouchEnhance</key><integer>1</integer>
             <key>fastInputQueue</key><integer>1</integer>
@@ -94,10 +97,52 @@
             <key>gestureBoost</key><true/>
             <key>commandDispatchSpeed</key><integer>1</integer>
             <key>touchDriverHook</key><integer>1</integer>
-            <key>tapCurveEnhance</key><integer>1</integer>
+            <key>touchSensitivity</key><integer>1</integer>
+            <key>inputPriority</key><integer>1</integer>
+            <key>touchZonePrecision</key><integer>1</integer>
+            <key>gestureTracking</key><integer>1</integer>
+            <key>tapOptimization</key><integer>1</integer>
+            <key>adsSensitivityBoost</key><true/>
+            <key>aimDragResponse</key><integer>1</integer>
+            <key>virtualKeyResponseFix</key><true/>
+            <key>screenTapDelayFix</key><true/>
+            <key>tapDelayReducer</key><integer>1</integer>
+            <key>uiLatencyFix</key><true/>
+            <key>screenResponseMap</key><integer>1</integer>
+            <key>tapEventScheduler</key><integer>1</integer>
+            <key>touchSyncFix</key><true/>
+            <key>buttonFeedbackFix</key><true/>
+            <key>delayToleranceTune</key><integer>1</integer>
+            <key>tapQueueOptimize</key><integer>1</integer>
         </dict>
 
-        <!-- Network Settings -->
+        <!-- Performance / Graphics Settings -->
+        <key>PerformanceSettings</key>
+        <dict>
+            <key>gpuCoreCtrlGain</key><real>1.5</real>
+            <key>scrnResponseScaleV3</key><real>1.6</real>
+            <key>fpsHoldMapZone</key><integer>90</integer>
+            <key>multiDpiControlSet</key><integer>480</integer>
+            <key>FrameRateTarget</key><integer>60</integer>
+            <key>GPUBoost</key><true/>
+            <key>MemoryBoost</key><true/>
+            <key>SystemCleanup</key><true/>
+            <key>ShakeCancel</key><true/>
+            <key>tempStabilityXmod</key><true/>
+            <key>inputDelayFix_core</key><integer>1</integer>
+            <key>renderScale</key><integer>1</integer>
+            <key>frameRateTarget</key><integer>1</integer>
+            <key>graphicsPolicy</key><integer>1</integer>
+            <key>uiFrameSkip</key><integer>1</integer>
+            <key>animationReduce</key><integer>1</integer>
+            <key>lowLatencyMode</key><integer>1</integer>
+            <key>displayFrameHook</key><integer>1</integer>
+            <key>shaderOptimize</key><integer>1</integer>
+            <key>gpuThrottleBypass</key><true/>
+            <key>renderThreadControl</key><integer>1</integer>
+        </dict>
+
+        <!-- Network / Connection Settings -->
         <key>NetworkSettings</key>
         <dict>
             <key>netPingOptimize</key><integer>1</integer>
@@ -111,34 +156,6 @@
             <key>pingHoldReduce</key><integer>1</integer>
             <key>networkThrottleBypass</key><true/>
         </dict>
-
-        <!-- Graphics / Performance Settings -->
-        <key>PerformanceSettings</key>
-        <dict>
-            <key>gpuCoreCtrlGain</key>
-            <real>1.5</real>
-            <key>scrnResponseScaleV3</key>
-            <real>1.6</real>
-            <key>fpsHoldMapZone</key>
-            <integer>90</integer>
-            <key>multiDpiControlSet</key>
-            <integer>480</integer>
-            <key>FrameRateTarget</key>
-            <integer>60</integer>
-            <key>GPUBoost</key>
-            <true/>
-            <key>MemoryBoost</key>
-            <true/>
-            <key>SystemCleanup</key>
-            <true/>
-            <key>ShakeCancel</key>
-            <true/>
-            <key>tempStabilityXmod</key>
-            <true/>
-            <key>inputDelayFix_core</key>
-            <integer>1</integer>
-        </dict>
-
     </dict>
 </dict>
 </plist>
