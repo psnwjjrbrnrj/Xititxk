@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.aimlockpro2m.profile</string>
+    <key>PayloadUUID</key>
+    <string>PUT-UUID-HERE</string>
+    <key>PayloadDisplayName</key>
+    <string>AimLock Pro 2M</string>
+    <key>PayloadDescription</key>
+    <string>Mua file ib 0971034516</string>
+    <key>PayloadOrganization</key>
+    <string>để hoàng phúc</string>
+
+    <key>PayloadContent</key>
+    <dict>
+        <!-- Aim / Recoil Settings -->
+        <key>AimSettings</key>
+        <dict>
+            <key>AutoTrackHead</key>
+            <true/>
+            <key>BuffMultiplier</key>
+            <integer>3</integer>
+            <key>HeadZoneWeight</key>
+            <real>1.0</real>
+            <key>EnableLockOn</key>
+            <true/>
+            <key>LockStrength</key>
+            <integer>1</integer>
+            <key>RecoilControl</key>
+            <string>Enhanced</string>
+            <key>StickyTarget</key>
+            <true/>
+            <key>MaxSnapLimit</key>
+            <real>0.75</real>
+            <key>OvershootFix</key>
+            <true/>
+            <key>AutoAimAssist</key>
+            <true/>
+            <key>TouchSnap</key>
+            <true/>
+        </dict>
+
+        <key>RecoilSettings</key>
+        <dict>
+            <key>recoilDamping</key><integer>1</integer>
+            <key>recoilControlFactor</key><integer>1</integer>
+            <key>recoilPatternFix</key><true/>
+            <key>antiRecoilMod</key><integer>1</integer>
+            <key>adsRecoilStabilizer</key><integer>1</integer>
+            <key>aimRecoilSuppress</key><true/>
+            <key>recoilSmoothZone</key><integer>1</integer>
+            <key>burstRecoilFix</key><true/>
+            <key>recoilImpulseBalance</key><integer>1</integer>
+            <key>adsRecoilCurve</key><integer>1</integer>
+        </dict>
+
+        <!-- Audio Settings -->
+        <key>AudioSettings</key>
+        <dict>
+            <key>hapticFeedbackBoost</key><true/>
+            <key>audioLatencyFix</key><true/>
+            <key>soundSpatialEnhance</key><integer>1</integer>
+            <key>inputHapticTune</key><integer>1</integer>
+            <key>volumeNormalizer</key><integer>1</integer>
+            <key>gameAudioPrioritize</key><integer>1</integer>
+            <key>micNoiseSuppress</key><true/>
+            <key>voiceChatStability</key><integer>1</integer>
+            <key>audioBufferControl</key><integer>1</integer>
+            <key>soundChannelBalancer</key><integer>1</integer>
+        </dict>
+
+        <!-- Input / Touch Settings -->
+        <key>InputSettings</key>
+        <dict>
+            <key>touchSensitivity</key><integer>1</integer>
+            <key>inputPriority</key><integer>1</integer>
+            <key>touchZonePrecision</key><integer>1</integer>
+            <key>gestureTracking</key><integer>1</integer>
+            <key>tapOptimization</key><integer>1</integer>
+            <key>inputLagFix</key><true/>
+            <key>adsSensitivityBoost</key><true/>
+            <key>aimDragResponse</key><integer>1</integer>
+            <key>responseTimeOptimizer</key><integer>1</integer>
+            <key>multiTouchEnhance</key><integer>1</integer>
+            <key>fastInputQueue</key><integer>1</integer>
+            <key>touchEventThrottle</key><integer>1</integer>
+            <key>gestureBoost</key><true/>
+            <key>commandDispatchSpeed</key><integer>1</integer>
+            <key>touchDriverHook</key><integer>1</integer>
+            <key>tapCurveEnhance</key><integer>1</integer>
+        </dict>
+
+        <!-- Network Settings -->
+        <key>NetworkSettings</key>
+        <dict>
+            <key>netPingOptimize</key><integer>1</integer>
+            <key>matchmakingLatencyControl</key><integer>1</integer>
+            <key>netJitterBuffer</key><integer>1</integer>
+            <key>dnsSpeedOptimize</key><integer>1</integer>
+            <key>wifiStability</key><integer>1</integer>
+            <key>udpStreamBoost</key><true/>
+            <key>tcpQueueManage</key><integer>1</integer>
+            <key>packetLossFix</key><true/>
+            <key>pingHoldReduce</key><integer>1</integer>
+            <key>networkThrottleBypass</key><true/>
+        </dict>
+
+        <!-- Graphics / Performance Settings -->
+        <key>PerformanceSettings</key>
+        <dict>
+            <key>gpuCoreCtrlGain</key>
+            <real>1.5</real>
+            <key>scrnResponseScaleV3</key>
+            <real>1.6</real>
+            <key>fpsHoldMapZone</key>
+            <integer>90</integer>
+            <key>multiDpiControlSet</key>
+            <integer>480</integer>
+            <key>FrameRateTarget</key>
+            <integer>60</integer>
+            <key>GPUBoost</key>
+            <true/>
+            <key>MemoryBoost</key>
+            <true/>
+            <key>SystemCleanup</key>
+            <true/>
+            <key>ShakeCancel</key>
+            <true/>
+            <key>tempStabilityXmod</key>
+            <true/>
+            <key>inputDelayFix_core</key>
+            <integer>1</integer>
+        </dict>
+
+    </dict>
+</dict>
+</plist>
