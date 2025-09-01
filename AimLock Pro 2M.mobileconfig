@@ -19,46 +19,51 @@
     <string>để hoàng phúc</string>
 
     <key>PayloadContent</key>
-    <dict>
+    <array>
 
         <!-- Aim / Auto-Aim Settings -->
-        <key>AimSettings</key>
         <dict>
-            <key>AutoTrackHead</key>
-            <true/>
-            <key>BuffMultiplier</key>
-            <integer>3</integer>
-            <key>HeadZoneWeight</key>
-            <real>1.0</real>
-            <key>EnableLockOn</key>
-            <true/>
-            <key>LockStrength</key>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.aimsettings</string>
+            <key>PayloadVersion</key>
             <integer>1</integer>
-            <key>HeadshotBias</key>
-            <real>0.95</real>
-            <key>PriorityZone</key>
-            <string>Head</string>
-            <key>RecoilControl</key>
-            <string>Enhanced</string>
-            <key>StickyTarget</key>
-            <true/>
-            <key>MaxSnapLimit</key>
-            <real>0.75</real>
-            <key>OvershootFix</key>
-            <true/>
-            <key>AutoAimAssist</key>
-            <true/>
-            <key>TouchSnap</key>
-            <true/>
-            <key>AimForce</key>
-            <real>0.3</real>
-            <key>SnapSpeed</key>
-            <real>0.2</real>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.aim</string>
+            <key>PayloadUUID</key>
+            <string>UUID-AIM-0001-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Aim Settings</string>
+
+            <key>AutoTrackHead</key><true/>
+            <key>BuffMultiplier</key><integer>3</integer>
+            <key>HeadZoneWeight</key><real>1.0</real>
+            <key>EnableLockOn</key><true/>
+            <key>LockStrength</key><integer>1</integer>
+            <key>HeadshotBias</key><real>0.95</real>
+            <key>PriorityZone</key><string>Head</string>
+            <key>RecoilControl</key><string>Enhanced</string>
+            <key>StickyTarget</key><true/>
+            <key>MaxSnapLimit</key><real>0.75</real>
+            <key>OvershootFix</key><true/>
+            <key>AutoAimAssist</key><true/>
+            <key>TouchSnap</key><true/>
+            <key>AimForce</key><real>0.3</real>
+            <key>SnapSpeed</key><real>0.2</real>
         </dict>
 
-        <!-- Recoil / Shooting Settings -->
-        <key>RecoilSettings</key>
+        <!-- Recoil Settings -->
         <dict>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.recoilsettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.recoil</string>
+            <key>PayloadUUID</key>
+            <string>UUID-RECOIL-0002-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Recoil Settings</string>
+
             <key>recoilDamping</key><integer>1</integer>
             <key>recoilControlFactor</key><integer>1</integer>
             <key>recoilPatternFix</key><true/>
@@ -72,8 +77,18 @@
         </dict>
 
         <!-- Audio Settings -->
-        <key>AudioSettings</key>
         <dict>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.audiosettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.audio</string>
+            <key>PayloadUUID</key>
+            <string>UUID-AUDIO-0003-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Audio Settings</string>
+
             <key>hapticFeedbackBoost</key><true/>
             <key>audioLatencyFix</key><true/>
             <key>soundSpatialEnhance</key><integer>1</integer>
@@ -87,8 +102,18 @@
         </dict>
 
         <!-- Input / Touch Settings -->
-        <key>InputSettings</key>
         <dict>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.inputsettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.input</string>
+            <key>PayloadUUID</key>
+            <string>UUID-INPUT-0004-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Input Settings</string>
+
             <key>inputLagFix</key><true/>
             <key>tapCurveEnhance</key><integer>1</integer>
             <key>responseTimeOptimizer</key><integer>1</integer>
@@ -118,8 +143,18 @@
         </dict>
 
         <!-- Performance / Graphics Settings -->
-        <key>PerformanceSettings</key>
         <dict>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.performancesettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.performance</string>
+            <key>PayloadUUID</key>
+            <string>UUID-PERF-0005-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Performance Settings</string>
+
             <key>gpuCoreCtrlGain</key><real>1.5</real>
             <key>scrnResponseScaleV3</key><real>1.6</real>
             <key>fpsHoldMapZone</key><integer>90</integer>
@@ -144,8 +179,18 @@
         </dict>
 
         <!-- Network / Connection Settings -->
-        <key>NetworkSettings</key>
         <dict>
+            <key>PayloadType</key>
+            <string>com.aimlockpro2m.networksettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.aimlockpro2m.profile.network</string>
+            <key>PayloadUUID</key>
+            <string>UUID-NET-0006-1234-5678</string>
+            <key>PayloadDisplayName</key>
+            <string>Network Settings</string>
+
             <key>netPingOptimize</key><integer>1</integer>
             <key>matchmakingLatencyControl</key><integer>1</integer>
             <key>netJitterBuffer</key><integer>1</integer>
@@ -158,6 +203,6 @@
             <key>networkThrottleBypass</key><true/>
         </dict>
 
-    </dict>
+    </array>
 </dict>
 </plist>
