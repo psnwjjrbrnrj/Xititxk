@@ -3,14 +3,14 @@
  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>PayloadType</key>
+     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadIdentifier</key>
     <string>com.aimlockpro2m.profile</string>
     <key>PayloadUUID</key>
-    <string>PUT-UUID-HERE</string>
+    <string>123E4567-E89B-12D3-A456-426614174000</string> <!-- UUID hợp lệ -->
     <key>PayloadDisplayName</key>
     <string>AimLock Pro 2M</string>
     <key>PayloadDescription</key>
