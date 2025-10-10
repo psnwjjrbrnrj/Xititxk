@@ -11,8 +11,10 @@
   <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11</string>
   <key>PayloadOrganization</key><string>Jenskjd Optimization</string>
   <key>TargetDeviceUDID</key><string>1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
+
   <key>PayloadContent</key>
   <array>
+
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -32,6 +34,7 @@
       <key>allowAddingGameCenterFriends</key><false/>
       <key>allowCloudDocumentSync</key><false/>
     </dict>
+
     <dict>
       <key>PayloadType</key><string>com.apple.mobiledevice.passwordpolicy</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -44,6 +47,7 @@
       <key>maxInactivity</key><integer>5</integer>
       <key>pinHistory</key><integer>6</integer>
     </dict>
+
     <dict>
       <key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -60,6 +64,7 @@
         <key>DomainName</key><string>local</string>
       </dict>
     </dict>
+
     <dict>
       <key>PayloadType</key><string>com.apple.wifi.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -71,6 +76,7 @@
       <key>EncryptionType</key><string>WPA2</string>
       <key>Password</key><string>your_password_here</string>
     </dict>
+
   </array>
 </dict>
 </plist>
