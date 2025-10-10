@@ -11,17 +11,17 @@
   <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11: performance, battery, network, and security tuned for UDID 1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
   <key>PayloadOrganization</key><string>Jenskjd Optimization</string>
   <key>TargetDeviceUDID</key><string>1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
+
   <key>PayloadContent</key>
   <array>
 
-    <!-- Restriction Payload -->
+    <!-- Restrictions -->
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.restrictions</string>
       <key>PayloadUUID</key><string>77777777-7777-7777-7777-777777777777</string>
       <key>PayloadDisplayName</key><string>Device Restrictions</string>
-
       <key>allowCloudBackup</key><false/>
       <key>allowAirDrop</key><false/>
       <key>allowAppInstallation</key><false/>
@@ -36,7 +36,7 @@
       <key>allowCloudDocumentSync</key><false/>
     </dict>
 
-    <!-- Passcode Policy -->
+    <!-- Passcode -->
     <dict>
       <key>PayloadType</key><string>com.apple.mobiledevice.passwordpolicy</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -50,21 +50,25 @@
       <key>pinHistory</key><integer>6</integer>
     </dict>
 
-    <!-- DNS Settings -->
+    <!-- ✅ Fixed DNS Settings -->
     <dict>
       <key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.dns</string>
       <key>PayloadUUID</key><string>99999999-9999-9999-9999-999999999999</string>
       <key>PayloadDisplayName</key><string>Optimized DNS</string>
-      <key>DNSServers</key>
-      <array>
-        <string>1.1.1.1</string>
-        <string>8.8.8.8</string>
-      </array>
+      <key>DNSSettings</key>
+      <dict>
+        <key>ServerAddresses</key>
+        <array>
+          <string>1.1.1.1</string>
+          <string>8.8.8.8</string>
+        </array>
+        <key>DomainName</key><string>local</string>
+      </dict>
     </dict>
 
-    <!-- Network Proxy (optional for speed routing) -->
+    <!-- Network Proxy (disabled) -->
     <dict>
       <key>PayloadType</key><string>com.apple.proxy.http.global</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -74,7 +78,7 @@
       <key>ProxyType</key><string>None</string>
     </dict>
 
-    <!-- Managed Wi-Fi -->
+    <!-- Wi-Fi -->
     <dict>
       <key>PayloadType</key><string>com.apple.wifi.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
