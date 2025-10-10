@@ -61,14 +61,6 @@
       </dict>
     </dict>
     <dict>
-      <key>PayloadType</key><string>com.apple.proxy.http.global</string>
-      <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.superopt.proxy</string>
-      <key>PayloadUUID</key><string>AAAAAAA0-AAAA-AAAA-AAAA-AAAAAAAAAAAA</string>
-      <key>PayloadDisplayName</key><string>Network Optimization Proxy</string>
-      <key>ProxyType</key><string>None</string>
-    </dict>
-    <dict>
       <key>PayloadType</key><string>com.apple.wifi.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.wifi</string>
