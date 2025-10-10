@@ -4,14 +4,13 @@
 <plist version="1.0">
 <dict>
   <key>PayloadVersion</key><integer>1</integer>
-  <key>PayloadUUID</key><string>9C52BFA0-7B7B-4E90-8FBA-9E88EBA2C0E1</string>
+  <key>PayloadUUID</key><string>FAE0A920-6CC4-4B02-9AC5-32D7B9F24E31</string>
   <key>PayloadType</key><string>Configuration</string>
-  <key>PayloadIdentifier</key><string>com.superopt.iphone8plus.profile</string>
-  <key>PayloadDisplayName</key><string>Super Optimized iPhone 8 Plus</string>
-  <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11</string>
+  <key>PayloadIdentifier</key><string>com.superopt.cleanprofile</string>
+  <key>PayloadDisplayName</key><string>Super Optimized Clean Profile</string>
+  <key>PayloadDescription</key><string>Minimal verified configuration for iOS 16.7.11</string>
   <key>PayloadOrganization</key><string>Jenskjd Optimization</string>
   <key>TargetDeviceUDID</key><string>1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
-
   <key>PayloadContent</key>
   <array>
 
@@ -19,40 +18,29 @@
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.restrictions</string>
-      <key>PayloadUUID</key><string>77777777-7777-7777-7777-777777777777</string>
-      <key>PayloadDisplayName</key><string>Device Restrictions</string>
-      <key>allowCloudBackup</key><false/>
+      <key>PayloadUUID</key><string>11111111-1111-1111-1111-111111111111</string>
+      <key>PayloadDisplayName</key><string>Restrictions</string>
       <key>allowAirDrop</key><false/>
-      <key>allowAppInstallation</key><false/>
-      <key>allowScreenShot</key><false/>
-      <key>allowCamera</key><false/>
-      <key>allowCloudPhotoLibrary</key><false/>
-      <key>allowAutoCorrection</key><false/>
-      <key>allowPredictiveKeyboard</key><false/>
       <key>allowSiri</key><false/>
-      <key>allowSharedStream</key><false/>
-      <key>allowAddingGameCenterFriends</key><false/>
-      <key>allowCloudDocumentSync</key><false/>
+      <key>allowCloudBackup</key><false/>
+      <key>allowAppInstallation</key><false/>
     </dict>
 
     <dict>
       <key>PayloadType</key><string>com.apple.mobiledevice.passwordpolicy</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.passcode</string>
-      <key>PayloadUUID</key><string>88888888-8888-8888-8888-888888888888</string>
+      <key>PayloadUUID</key><string>22222222-2222-2222-2222-222222222222</string>
       <key>PayloadDisplayName</key><string>Passcode Policy</string>
       <key>minLength</key><integer>6</integer>
-      <key>minComplexChars</key><integer>1</integer>
       <key>maxFailedAttempts</key><integer>6</integer>
-      <key>maxInactivity</key><integer>5</integer>
-      <key>pinHistory</key><integer>6</integer>
     </dict>
 
     <dict>
       <key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadIdentifier</key><string>com.superopt.dns</string>
-      <key>PayloadUUID</key><string>99999999-9999-9999-9999-999999999999</string>
+      <key>PayloadUUID</key><string>33333333-3333-3333-3333-333333333333</string>
       <key>PayloadDisplayName</key><string>Optimized DNS</string>
       <key>DNSSettings</key>
       <dict>
@@ -63,18 +51,6 @@
         </array>
         <key>DomainName</key><string>local</string>
       </dict>
-    </dict>
-
-    <dict>
-      <key>PayloadType</key><string>com.apple.wifi.managed</string>
-      <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.superopt.wifi</string>
-      <key>PayloadUUID</key><string>BBBBBBB0-BBBB-BBBB-BBBB-BBBBBBBBBBBB</string>
-      <key>PayloadDisplayName</key><string>Optimized Wi-Fi</string>
-      <key>SSID_STR</key><string>YourNetwork</string>
-      <key>HIDDEN_NETWORK</key><false/>
-      <key>EncryptionType</key><string>WPA2</string>
-      <key>Password</key><string>your_password_here</string>
     </dict>
 
   </array>
