@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Inc//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadVersion</key><integer>1</integer>
+  <key>PayloadUUID</key><string>9C52BFA0-7B7B-4E90-8FBA-9E88EBA2C0E1</string>
+  <key>PayloadType</key><string>Configuration</string>
+  <key>PayloadIdentifier</key><string>com.superopt.iphone8plus.profile</string>
+  <key>PayloadDisplayName</key><string>Super Optimized iPhone 8 Plus</string>
+  <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11: performance, battery, network, and security tuned for UDID 1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
+  <key>PayloadOrganization</key><string>Jenskjd Optimization</string>
+  <key>TargetDeviceUDID</key><string>1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
+  <key>PayloadContent</key>
+  <array>
+
+    <!-- Restriction Payload -->
+    <dict>
+      <key>PayloadType</key><string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.superopt.restrictions</string>
+      <key>PayloadUUID</key><string>77777777-7777-7777-7777-777777777777</string>
+      <key>PayloadDisplayName</key><string>Device Restrictions</string>
+
+      <key>allowCloudBackup</key><false/>
+      <key>allowAirDrop</key><false/>
+      <key>allowAppInstallation</key><false/>
+      <key>allowScreenShot</key><false/>
+      <key>allowCamera</key><false/>
+      <key>allowCloudPhotoLibrary</key><false/>
+      <key>allowAutoCorrection</key><false/>
+      <key>allowPredictiveKeyboard</key><false/>
+      <key>allowSiri</key><false/>
+      <key>allowSharedStream</key><false/>
+      <key>allowAddingGameCenterFriends</key><false/>
+      <key>allowCloudDocumentSync</key><false/>
+    </dict>
+
+    <!-- Passcode Policy -->
+    <dict>
+      <key>PayloadType</key><string>com.apple.mobiledevice.passwordpolicy</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.superopt.passcode</string>
+      <key>PayloadUUID</key><string>88888888-8888-8888-8888-888888888888</string>
+      <key>PayloadDisplayName</key><string>Passcode Policy</string>
+      <key>minLength</key><integer>6</integer>
+      <key>minComplexChars</key><integer>1</integer>
+      <key>maxFailedAttempts</key><integer>6</integer>
+      <key>maxInactivity</key><integer>5</integer>
+      <key>pinHistory</key><integer>6</integer>
+    </dict>
+
+    <!-- DNS Settings -->
+    <dict>
+      <key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.superopt.dns</string>
+      <key>PayloadUUID</key><string>99999999-9999-9999-9999-999999999999</string>
+      <key>PayloadDisplayName</key><string>Optimized DNS</string>
+      <key>DNSServers</key>
+      <array>
+        <string>1.1.1.1</string>
+        <string>8.8.8.8</string>
+      </array>
+    </dict>
+
+    <!-- Network Proxy (optional for speed routing) -->
+    <dict>
+      <key>PayloadType</key><string>com.apple.proxy.http.global</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.superopt.proxy</string>
+      <key>PayloadUUID</key><string>AAAAAAA0-AAAA-AAAA-AAAA-AAAAAAAAAAAA</string>
+      <key>PayloadDisplayName</key><string>Network Optimization Proxy</string>
+      <key>ProxyType</key><string>None</string>
+    </dict>
+
+    <!-- Managed Wi-Fi -->
+    <dict>
+      <key>PayloadType</key><string>com.apple.wifi.managed</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadIdentifier</key><string>com.superopt.wifi</string>
+      <key>PayloadUUID</key><string>BBBBBBB0-BBBB-BBBB-BBBB-BBBBBBBBBBBB</string>
+      <key>PayloadDisplayName</key><string>Optimized Wi-Fi</string>
+      <key>SSID_STR</key><string>YourNetwork</string>
+      <key>HIDDEN_NETWORK</key><false/>
+      <key>EncryptionType</key><string>WPA2</string>
+      <key>Password</key><string>your_password_here</string>
+    </dict>
+
+  </array>
+</dict>
+</plist>
