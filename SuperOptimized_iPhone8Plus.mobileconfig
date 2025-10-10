@@ -8,14 +8,11 @@
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadIdentifier</key><string>com.superopt.iphone8plus.profile</string>
   <key>PayloadDisplayName</key><string>Super Optimized iPhone 8 Plus</string>
-  <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11: performance, battery, network, and security tuned for UDID 1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
+  <key>PayloadDescription</key><string>Full optimization for iOS 16.7.11</string>
   <key>PayloadOrganization</key><string>Jenskjd Optimization</string>
   <key>TargetDeviceUDID</key><string>1781c5bfcc4289fc4ddbcaf41feca94baa182d62</string>
-
   <key>PayloadContent</key>
   <array>
-
-    <!-- Restrictions -->
     <dict>
       <key>PayloadType</key><string>com.apple.applicationaccess</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -35,8 +32,6 @@
       <key>allowAddingGameCenterFriends</key><false/>
       <key>allowCloudDocumentSync</key><false/>
     </dict>
-
-    <!-- Passcode -->
     <dict>
       <key>PayloadType</key><string>com.apple.mobiledevice.passwordpolicy</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -49,8 +44,6 @@
       <key>maxInactivity</key><integer>5</integer>
       <key>pinHistory</key><integer>6</integer>
     </dict>
-
-    <!-- ✅ Fixed DNS Settings -->
     <dict>
       <key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -67,8 +60,6 @@
         <key>DomainName</key><string>local</string>
       </dict>
     </dict>
-
-    <!-- Network Proxy (disabled) -->
     <dict>
       <key>PayloadType</key><string>com.apple.proxy.http.global</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -77,8 +68,6 @@
       <key>PayloadDisplayName</key><string>Network Optimization Proxy</string>
       <key>ProxyType</key><string>None</string>
     </dict>
-
-    <!-- Wi-Fi -->
     <dict>
       <key>PayloadType</key><string>com.apple.wifi.managed</string>
       <key>PayloadVersion</key><integer>1</integer>
@@ -90,7 +79,6 @@
       <key>EncryptionType</key><string>WPA2</string>
       <key>Password</key><string>your_password_here</string>
     </dict>
-
   </array>
 </dict>
 </plist>
