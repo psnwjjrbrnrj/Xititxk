@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>DevTech HoanggLinhh 💤🧸</string>
+		<string>DevTech HoangPhuc 💤🧸</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -15,13 +15,13 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>DomainServer</key>
-				<string>iphone 10.3</string>
+				<string>iphone 10.2</string>
 				<key>ServerAddresses</key>
 				<array>
 					<string>192.168.1.1</string>
 				</array>
 				<key>ServerName</key>
-				<string>DevTech HoanggLinhh 💤🧸-ANTI-CRACK-SEVER</string>
+				<string>DevTech HoangPhuc 💤🧸-ANTI-CRACK-SEVER</string>
 				<key>ServerOwner</key>
 				<array>
 					<string>354871094134505</string>
@@ -37,7 +37,7 @@
 				</array>
 				<key>SupplementalMatchDomains</key>
 				<array>
-				<string>com.touch_sensitivity=1.3
+				<string>com.touch_sensitivity=2.5
 com.touch_delay=0.02
 com.touch_sensitivity=10
 com.vpn_optimal.list
