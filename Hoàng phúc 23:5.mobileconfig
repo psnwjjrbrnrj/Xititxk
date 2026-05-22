@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.adguard</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP11</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 1</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>dns.adguard-dns.com</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>94.140.14.14</string>
+                    <string>94.140.15.15</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.mullvad.base</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP22</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 2</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://base.dns.mullvad.net/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>base.dns.mullvad.net</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>194.242.2.4</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.mullvad.extended</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP33</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 3</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://extended.dns.mullvad.net/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>extended.dns.mullvad.net</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>194.242.2.5</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.adguard.family</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP44</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 4</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://family.adguard-dns.com/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>family.adguard-dns.com</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>94.140.14.15</string>
+                    <string>94.140.15.16</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.mullvad.family</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP55</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 5</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://family.dns.mullvad.net/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>family.dns.mullvad.net</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>194.242.2.6</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.dnsforge</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP66</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 6</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dnsforge.de/dns-query</string>
+                <key>ServerName</key>
+                <array>
+                    <string>dnsforge.de</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>176.9.93.198</string>
+                    <string>176.9.1.117</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.cleanbrowsing.family</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP77</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 7 (CleanBrowsing 18+)</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://doh.cleanbrowsing.org/doh/family-filter/</string>
+                <key>ServerName</key>
+                <array>
+                    <string>doh.cleanbrowsing.org</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>185.228.168.168</string>
+                    <string>185.228.169.168</string>
+                </array>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.controld.family</string>
+            <key>PayloadUUID</key>
+            <string>1702-VIP88</string>
+            <key>PayloadDisplayName</key>
+            <string>Hoang Phuc Cute 8 (Control D Family)</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://freedns.controld.com/family</string>
+                <key>ServerName</key>
+                <array>
+                    <string>freedns.controld.com</string>
+                </array>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>76.76.2.4</string>
+                    <string>76.76.10.4</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>Adblock Edit By Hoang Phuc (v6.0):
+- Chan quang cao manh hon qua DNS so voi v5.0.
+- 8 lua chon DNS tu cac nha cung cap uy tin nhat 2026.
+- VIP01: AdGuard DNS - Chan Ads + Trackers.
+- VIP02: Mullvad Base - Chan Ads + Trackers + Malware.
+- VIP03: Mullvad Extended - Chan Ads + Trackers + Malware + Mang xa hoi.
+- VIP04: AdGuard Family - Chan Ads + Noi dung nguoi lon.
+- VIP05: Mullvad Family - Chan manh nhat (Ads + Trackers + Malware + Adult + Co bac).
+- VIP06: DNSForge - Chan Ads + Trackers (backup).
+- VIP07: CleanBrowsing Family - Ep SafeSearch, chan triet de 18+ khong lá»t.
+- VIP08: Control D Family - Dung AI loc Porn, Ads toc do cao.
+- Ho tro chan 1 phan quang cao tren Youtube, Facebook.
+- Khong hao pin va on dinh hon VPN.
+- Ho tro tat ca iOS, iPad, MacOS, TvOS.
+- Ho tro 3G/4G/5G va Wifi.</string>
+    <key>PayloadDisplayName</key>
+    <string>Adblock Edit By Hoang Phuc (v6.0)</string>
+    <key>PayloadIdentifier</key>
+    <string>adblock.v6</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>a9f3d21b-cc81-5c10-b91c-d88g96f0fb3e</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>RemovalDate</key>
+    <date>2026-05-23T00:00:00Z</date>
+</dict>
+</plist>
